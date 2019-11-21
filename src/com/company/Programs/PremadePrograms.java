@@ -15,7 +15,7 @@ public class PremadePrograms extends Program  {
         System.out.println("When you are done with a set press enter to start the rest timer.");
         System.out.println("Press enter when you wanna start the program");
         input.nextLine();
-        for (int i = 0; i < 3; i++){ // dela upp for-lopparna i metoder som du kallar på. blir lättare att läsa.
+        for (int i = 0; i < 3; i++){
             System.out.println("Aight lets go! Squats 8-10 reps 70% of you PB ");
             System.out.println("Press enter to start the rest (60 sec rest)");
              input.nextLine();
